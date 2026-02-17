@@ -164,12 +164,12 @@ function ArtCard({
 
 // ─── Sample artwork data (replace src paths as images are added) ──────────────
 const artworks = [
-  { title: "Echoes of Persepolis", desc: "Acrylic on canvas, 2024", src: "/images/art-01.jpg" },
-  { title: "Rumi's Garden", desc: "Mixed media, 2023", src: "/images/art-02.jpg" },
-  { title: "Saffron Twilight", desc: "Watercolour, 2024", src: "/images/art-03.jpg" },
-  { title: "Nastaliq Dreams", desc: "Ink & gold leaf, 2023", src: "/images/art-04.jpg" },
-  { title: "The Pomegranate Wall", desc: "Oil on linen, 2022", src: "/images/art-05.jpg" },
-  { title: "Desert Geometry", desc: "Digital print, 2024", src: "/images/art-06.jpg" },
+  { title: "Art Piece 01", desc: "Iran Woman Flag Monument", src: "/images/art-01.jpg" },
+  { title: "Art Piece 02", desc: "Monument", src: "/images/art-02.jpg" },
+  { title: "Art Piece 03", desc: "Monument Clouds", src: "/images/art-03.jpg" },
+  { title: "Art Piece 04", desc: "Iran Woman Flag Monument", src: "/images/art-04.jpg" },
+  { title: "Art Piece 05", desc: "Iran Woman Flag Monument", src: "/images/art-05.jpg" },
+  { title: "Art Piece 06", desc: "Iran Woman Monument", src: "/images/art-06.jpg" },
 ];
 
 // ─── Main Page ────────────────────────────────────────────────────────────────
@@ -537,7 +537,7 @@ export default function Home() {
           gap: 3px;
         }
         .art-card { position: relative; cursor: pointer; overflow: hidden; }
-        .art-img-wrap { position: relative; aspect-ratio: 3/2; overflow: hidden; background: var(--mid); }
+        .art-img-wrap { position: relative; aspect-ratio: 3/4; overflow: hidden; background: var(--mid); }
         .art-img {
           width: 100%; height: 100%; object-fit: cover;
           transition: transform 0.7s cubic-bezier(0.22,1,0.36,1);
